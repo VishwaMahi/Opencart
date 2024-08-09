@@ -1,0 +1,59 @@
+
+
+1)open cmd prompt
+
+2)type cd project path dir
+   e.g cd C:\Users\vidhy\eclipse-workspace\Opencart dir
+   
+   all the files related to project will be displayed.
+   
+3) to run pom.xml file type "mvn test"
+
+
+Imp Note: once we run the project successfully in eclipse then we have to run the project remotely using
+          command prompt because even in Jenkins we will be running the project remotely.
+          
+          
+          
+  Step 1: execute the project in eclipse
+  
+  Step 2: execute the project in command prompt using maven
+  
+  Step 3:commit the work in git(local repository)
+  
+  Step 4: push the work to github(global repository)
+  
+  Step 5: run the project using Jenkins
+  
+  
+  # we will be using git commands on git command prompt so we have to install git software.
+  # open any folder->right click->show more options->select git bash here-> git cmd prompt will open.
+  
+  
+  GitHub UN->vishwanathan.seee999@gmail.com
+         PWD-> VishwaLekha@999
+         
+         
+         
+         
+   Step 1: open the project location in explorer->right click->select git bash here
+      
+   Step 2: use "git init" command which will create an empty git repository
+   
+   Step 3: After that we have to use the below commands for only one time
+   
+           git config --global user.name "VishwaLekha"
+           
+           press enter
+           
+           git config --global user.email "vishwanathan.seee999@gmail.com"
+           
+    Step 4: to check the status use "git status"
+    
+    Step5: to add all the files from your workspace to staging area use the below commands
+    
+           git add -A -> will add all files
+           
+           git add filename.java -> to add a specific file with java extension
+           
+           git add *.java-> will add all files with java extension   
