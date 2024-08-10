@@ -56,4 +56,12 @@ Imp Note: once we run the project successfully in eclipse then we have to run th
            
            git add filename.java -> to add a specific file with java extension
            
-           git add *.java-> will add all files with java extension   
+           git add *.java-> will add all files with java extension
+           
+           git add foldername-> will add a specific folder
+           
+           
+           
+      Step 6: to commit the work from staging area to git repository use 
+      
+              git commit -m "any message"   
